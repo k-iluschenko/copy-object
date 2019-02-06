@@ -1,6 +1,6 @@
 # copy-object
 
-    
+```    
 copy(o) {
       let output, v, key;
       output = Array.isArray(o) ? [] : {};
@@ -10,3 +10,4 @@ copy(o) {
       }
       return output;
     }
+```
